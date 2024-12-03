@@ -1,0 +1,23 @@
+answer_question_task:
+  description: >
+    Provide a comprehensive, data-driven response to the following question:    
+    {user_question}
+    
+    Utilize the PIRLS 2021 dataset to support your analysis, adhering to these principles:
+    - Focus exclusively on your expertise as a PIRLS data analyst
+    - Ensure accuracy and relevance in addressing the research question
+    - Explain your methodology and reasoning clearly
+    - Support claims with evidence from the PIRLS dataset
+    - Generate logically consistent and well-reasoned conclusions
+    - Contextualize findings within broader educational trends when appropriate
+    - Identify any limitations in the data or analysis
+    - Use markdown format for your final answer.
+    - Be short and descriptive in your findings.
+  expected_output: >
+    A clear, concise, and detailed answer to the question, presented strictly in markdown format. The answer should include a well-reasoned analysis and, where appropriate, evidence from the PIRLS dataset to support the conclusions.
+    
+    Additionally include emoji , table view etc where necessary to increase the better readability.
+    
+    At the starting of response add #GDSC7.
+    
+    
